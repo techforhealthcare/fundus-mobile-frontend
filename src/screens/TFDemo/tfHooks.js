@@ -51,7 +51,7 @@ const useTFReady = () => {
   return tfReady;
 };
 
-export const useModel = () => {
+const useModel = () => {
   const [model, setModel] = useState(null);
   useEffect(() => {
     (async () => {
