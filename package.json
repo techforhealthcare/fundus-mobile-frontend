@@ -1,0 +1,62 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "code:clean": "npm run code:lint --fix; npm run code:format",
+    "code:lint": "eslint --ext .js,.jsx,.ts,.tsx \"src/\"",
+    "code:format": "prettier --write .",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "prepare": "husky install"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "dependencies": {
+    "expo": "~41.0.1",
+    "expo-status-bar": "~1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/runtime": "^7.14.6",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "@types/react-test-renderer": "^17.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "babel-jest": "^27.0.5",
+    "eslint": "^7.29.0",
+    "husky": "^6.0.0",
+    "jest": "^27.0.5",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "poetic": "^1.6.0",
+    "prettier": "^2.3.1",
+    "react-test-renderer": "^16.10.2",
+    "typescript": "~4.0.0"
+  }
+}
