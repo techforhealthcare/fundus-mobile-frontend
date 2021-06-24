@@ -1,0 +1,8 @@
+serviceWorker.*
+*.d.ts
+commitLint.ts
+android
+ios
+coverage
+node_modules
+testResults
