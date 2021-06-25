@@ -1,4 +1,4 @@
-# Fundux mobile frontend
+# Fundus mobile frontend
 ## How to install
 - Install node modules
 ```npm i```
