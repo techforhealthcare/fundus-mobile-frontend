@@ -1,4 +1,4 @@
 import React from "react";
-import Main from "./src/containers/Main";
+import TFDemo from "./src/containers/TFDemo";
 
-export default () => <Main />;
+export default () => <TFDemo />;
