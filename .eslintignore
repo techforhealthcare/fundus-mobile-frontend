@@ -6,3 +6,6 @@ ios
 coverage
 node_modules
 testResults
+.expo
+.expo-shared
+package-lock.json
