@@ -3,3 +3,6 @@ coverage
 ios
 node_modules
 *.md
+.expo
+.expo-shared
+package-lock.json
